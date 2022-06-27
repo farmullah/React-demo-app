@@ -1,0 +1,25 @@
+.selectinputelement {
+  margin: 1rem 0;
+  display: flex;
+}
+.selectinputelement label {
+  color: #494949;
+  font-weight: 700;
+  margin-right: 20px;
+  white-space: nowrap;
+  width: 100px;
+  font-size: 16px;
+}
+
+.selectinputelement select {
+  border: 1px solid rgba(49, 49, 49, 0.5);
+  outline: none;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.selectinputelement .input_container .error {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
